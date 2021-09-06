@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/akulogo" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:drawableLeft="@drawable/name"
+        android:drawablePadding="2dp"
+        android:fontFamily="sans-serif-black"
+        android:hint="enter name"
+        android:textColor="#009688"
+        android:textSize="20dp"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/download_icon"
+        android:drawablePadding="2dp"
+        android:fontFamily="sans-serif-black"
+        android:hint="use 8-digit pwd"
+        android:password="true"
+        android:textColor="#009688"
+        android:textSize="20dp"
+        android:typeface="sans" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/loginbtn" />
+
+
+</LinearLayout>
