@@ -1,5 +1,5 @@
 # Healthcare Application
-#### This is a simple healthcare application designed in the workshop of Android healthcare professionals for AKU doctors. I taught and created the material myself. The application consists of two parts:
+#### This is a simple healthcare application designed in the workshop of Android healthcare professionals for AKU doctors. The application consists of two parts:
 ![WhatsApp Image 2021-09-06 at 11 14 13 PM](https://user-images.githubusercontent.com/83614728/132257738-2ec1347d-0933-4777-806c-b81f6f17e3bf.jpeg)
 
 ## 1. Pill Reminder
